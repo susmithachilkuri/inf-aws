@@ -9,5 +9,5 @@ resource "aws_instance" "example" {
   vpc_security_group_ids = [aws_security_group.allow-ssh.id]
 
   # the public SSH key
-  key_name = aws_key_pair.mykeypair.key_name
+  key_name = aws_key_pair.testaws.key_name
 }
