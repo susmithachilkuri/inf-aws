@@ -5,6 +5,4 @@ resource "aws_instance" "example" {
   # the VPC subnet
   subnet_id = aws_subnet.test-subnet.id
 
-  # the public SSH key
-  key_name = aws_key_pair.testaws
-}
+  
