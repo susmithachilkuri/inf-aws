@@ -6,3 +6,4 @@ resource "aws_instance" "example" {
   subnet_id = aws_subnet.test-subnet.id
 
   
+  }
